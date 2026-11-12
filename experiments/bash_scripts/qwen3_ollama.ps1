@@ -5,7 +5,7 @@ param(
     [string]$TokenizerName = 'Qwen/Qwen3-4B-Thinking-2507',
     [string]$OllamaUrl = 'http://localhost:11434',
     [int]$Limit = 30,
-    [int]$ReflexSize = 64,
+    [int]$ReflexSize = 16,
     [double]$Temperature = 0.6,
     [int]$MaxNewTokens = 8192,
     [int]$NumCtx = 8192
